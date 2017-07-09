@@ -1,6 +1,8 @@
-# Infinite - a journey in space and time
+# Infinite
+## A journey in space and time
 
-*Art direction : Maxime Sabourin*
-*Developer : Nathan Delavictoire*
-
+**Art direction :** Maxime Sabourin
+----
+**Developer :** Nathan Delavictoire
+----
 Experimentation with scrolling effect, perspective effect and distortion ...
