@@ -1,4 +1,4 @@
-#Infinite - a journey in space and time
+# Infinite - a journey in space and time
 
 *Art direction : Maxime Sabourin*
 *Developer : Nathan Delavictoire*
