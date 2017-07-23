@@ -4,3 +4,16 @@ body {
   font-family:sans-serif;
   background-color:$back-color;
 }
+
+.back-img__container{
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position: 50% 50%;
+  background-repeat:none;
+
+}

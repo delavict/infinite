@@ -30,7 +30,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "sugarss": "^1.0.0",
-    "webpack": "^3.1.0",
+    "webpack": "^3.3.0",
     "webpack-dev-server": "^2.5.1"
   },
   "babel": {
@@ -40,7 +40,14 @@
     ]
   },
   "dependencies": {
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^4.0.0",
+    "graceful-fs": "^4.1.11",
+    "node": "0.0.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "readable-stream": "^2.3.3",
+    "walk": "^2.3.9"
   }
 }

@@ -34,7 +34,11 @@ module.exports = {
             // use style-loader in development
             fallback: "style-loader"
         })
-      }]
+      },
+      {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      loader: "file-loader?name=/assets/[name].[ext]"
+  }]
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -43,6 +47,9 @@ module.exports = {
     path: __dirname + '/dist',
     publicPath: '/',
     filename: 'bundle.js'
+  },
+  node: {
+    fs: "empty"
   },
   devServer: {
     contentBase: './dist',
